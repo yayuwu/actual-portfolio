@@ -1,4 +1,4 @@
-# New Portfolio
+# ✨ New Portfolio ✨
 
 ## What's new?
 
