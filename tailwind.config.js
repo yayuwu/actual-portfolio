@@ -19,7 +19,18 @@ module.exports = {
         '3xl': '1.953rem',
         '4xl': '2.441rem',
         '5xl': '3.052rem',
+        '6xl': '3.814rem',   
+        '7xl': '4.766rem',   
+        '8xl': '5.952rem',   
       }
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1700px'
     },
   },
   plugins: [],

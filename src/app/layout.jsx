@@ -1,5 +1,6 @@
 import './ui/globals.css'
 import { poppins } from './fonts/fonts'
+import Nav from './ui/nav'
 
 export const metadata = {
   title: 'Yael Correa',
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
+        <Nav/>
         {children}
       </body>
     </html>

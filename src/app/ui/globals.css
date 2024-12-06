@@ -101,3 +101,9 @@ body {
         height: 4px;
     }
 }
+
+/* Cursor */
+
+#circles:hover {
+  cursor: url('https://res.cloudinary.com/dkfa8olux/image/upload/v1733500764/dark-eclipse_sblzq4.png') 50 50, auto;
+}
