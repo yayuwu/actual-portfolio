@@ -12,8 +12,8 @@ const Home = () => {
             <Image width='25' height='2' src={svgLine} alt="" />
             <p className='text-base md:text-xl ms-3'>Home</p>
           </div>
-        <h1 className='text-4xl xl:text-6xl 2xl:text-6xl'>I'm Yael <span className='block text-colorGreen'>Front End Developer</span> </h1>
-        <p className='text-base xl:text-xl lg:w-[400px] xl:w-[700px] my-4 mb-5 2xl:mb-8 leading-7 xl:leading-9 font-semibold'>I'm a specialist in creating attractive and functional interfaces, maintaining your brand identity and optimizing the performance of your website or application to the fullest.</p>
+        <h1 className='text-4xl xl:text-6xl 2xl:text-6xl'>I&apos;m Yael <span className='block text-colorGreen'>Front End Developer</span> </h1>
+        <p className='text-base xl:text-xl lg:w-[400px] xl:w-[700px] my-4 mb-5 2xl:mb-8 leading-7 xl:leading-9 font-semibold'>I&apos;m a specialist in creating attractive and functional interfaces, maintaining your brand identity and optimizing the performance of your website or application to the fullest.</p>
         <GreenBtn text='Download CV'/>
       </section>
       <section className='hidden lg:block 3xl:me-36'>
