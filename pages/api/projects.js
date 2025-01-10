@@ -5,7 +5,7 @@ const projects = [
         description: "An online calculator with functionalities similar to a mobile calculator, mimicking its design.",
         github: "https://github.com/yayuwu/Calculadora-web",
         web: "https://webcalculatorchallenge.netlify.app/",
-        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736550813/yael_portfolio_2024/projects/calculadora-web/mockup_calculadora_gawm6v.png",
+        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736552421/yael_portfolio_2024/projects/calculadora-web/calculator_mockup_ddcd0p.png",
         tech: ["HTML", "CSS", "JavaScript", "Netlify"],
         images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736545126/yael_portfolio_2024/projects/calculadora-web/Captura_de_pantalla_1250_ifxnmm.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736545128/yael_portfolio_2024/projects/calculadora-web/Captura_de_pantalla_1251_i5omad.png"],
         date: "15/12/2023"
