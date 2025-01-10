@@ -4,21 +4,26 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-export const GreenBtn = ({action, text}) => {
+export const GreenBtn = ({children, href}) => {
   return (
     <div>
-      <button className="text-white px-4 sm:px-8 py-2 sm:py-3 text-base md:text-xl bg-colorGreen rounded-full font-medium" onClick={action}>{text}</button>
+      <a className="text-white px-4 sm:px-8 py-2 sm:py-3 text-base md:text-xl bg-colorGreen rounded-full font-medium" href={href} target='_blank'>{children}</a>
     </div>
   )
 }
 
-export const TechBtn = ({text}) => {
-    return (
-        <div>
-          <p className="text-white px-4 py-2 text-sm bg-colorGreen rounded-full font-medium w-fit">{text}</p>
-        </div>
-      )
+export const TechBtn = ({ children, textColor, backgroundColor }) => {
+  return (
+    <div>
+      <p
+        className={`px-4 py-2 text-sm rounded-full font-medium w-fit ${textColor} ${backgroundColor}`}
+      >
+        {children}
+      </p>
+    </div>
+  )
 }
+
 
 export const MenuItem = ({ item, href }) => {
   const pathname = usePathname()
