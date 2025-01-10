@@ -1,7 +1,7 @@
 const getEducation = async () => {
     try {
       const API_URL= process.env.NEXT_PUBLIC_API_URL
-      const res = await fetch(`${API_URL}/courses`)
+      const res = await fetch(`${API_URL}/api/courses`)
       if(!res.ok) {
         throw new Error('Error al obtener los datos')
       }
