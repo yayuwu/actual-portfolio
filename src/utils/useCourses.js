@@ -1,7 +1,7 @@
 const getEducation = async () => {
     try {
       const API_URL= import.meta.API_URL
-      const res = await fetch(`http://localhost:3000/api/courses`)
+      const res = await fetch(`https://yael-correa.vercel.app/api/courses`)
       if(!res.ok) {
         throw new Error('Error al obtener los datos')
       }
