@@ -31,7 +31,7 @@ const courses = [
       tech: ["UX Research", "UX Thinking", "Wireframing", "Prototyping", "Responsive Design"],
       link: "https://www.coursera.org/account/accomplishments/specialization/GNLS7AAT8WDO?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
     },
-  ];
+  ]
   
   export default function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*'); // Permite todas las solicitudes
@@ -41,7 +41,7 @@ const courses = [
     if (req.method === 'OPTIONS') {
       return res.status(200).end(); // Manejo de preflight
     }
-    
+
     res.status(200).json(courses);
   }
   
