@@ -8,7 +8,7 @@ export const CardEducation = ({course, institution, techs, date, linkCourse}) =>
     <div className='bg-white w-[300px] rounded-xl px-7 pt-7 pb-4 flex flex-col '>
       <section className='text-colorDark'>
         <h2 className='font-semibold text-lg lg:text-2xl'>{course}</h2>
-        <p className=' text-base font-semibold text-colorGreen xl:text-md'>{institution}</p>
+        <p className=' text-base font-semibold text-colorGreen xl:text-md xl:pt-2'>{institution}</p>
       </section>
       <section className='flex flex-wrap gap-3 mt-4'>
        {techs.map((tech => (
