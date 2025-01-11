@@ -82,18 +82,18 @@ export default function handler(req, res) {
         return res.status(200).end(); // Manejo de preflight
     }
 
-    // Obtenemos el slug desde la URL
+    // Obtener los parámetros de consulta
     const { slug } = req.query;
 
+    // Si hay un slug, filtrar el proyecto
     if (slug) {
-        // Filtramos el proyecto por el slug
-        const project = projects.find(p => p.slug === slug);
+        const filteredProject = projects.find((project) => project.slug === slug);
 
-        if (project) {
-            return res.status(200).json(project);
-        } else {
-            return res.status(404).json({ message: "Proyecto no encontrado" });
+        if (!filteredProject) {
+        return res.status(404).json({ error: "Project not found" });
         }
+
+        return res.status(200).json(filteredProject);
     }
 
     // Si no hay slug, devolvemos todos los proyectos
