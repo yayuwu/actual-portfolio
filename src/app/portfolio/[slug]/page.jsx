@@ -58,7 +58,7 @@ const Project = async ({ params }) => {
                 md: 5
                 }}>
                 {images.map((img, index) => (
-                    <img src={img} alt={`${name}-${index}`} className='rounded-xl md:rounded-3xl hover:bg-gray-800 z-10'/>
+                    <img key={index} src={img} alt={`${name}-${index}`} className='rounded-xl md:rounded-3xl hover:bg-gray-800 z-10'/>
                 ))}
                 </Masonry>
             </section>
