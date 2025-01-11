@@ -1,6 +1,7 @@
 const projects = [
     {
         id: 1,
+        slug: "web-calculator",
         name: "Web Calculator",
         description: "An online calculator with functionalities similar to a mobile calculator, mimicking its design.",
         github: "https://github.com/yayuwu/Calculadora-web",
@@ -12,6 +13,7 @@ const projects = [
     },
     {
         id: 2,
+        slug: "ecosistema",
         name: "ECOSistema",
         description: "It is an MVP application designed for interaction and supplier search, where the publishing and product/service listings are entirely managed by administrators to enable these products/services and gather feedback. My main responsibility was the Front-End development.",
         github: "https://github.com/yayuwu/ECOSistema",
@@ -24,6 +26,7 @@ const projects = [
     {
         id: 3,
         name: "Bussinezz X",
+        slug: "bussinezz-x",
         description: "Businezz X was a challenge where one of my responsibilities was to create the layout based on an image, maintaining fidelity, and adding appealing animations.",
         github: "https://github.com/yayuwu/domo-challenge",
         web: "https://businezzx.netlify.app",
@@ -35,6 +38,7 @@ const projects = [
     {
         id: 4,
         name: "Cuipea",
+        slug: "cuipea",
         description: "CUIPEA is a mobile digital health booklet for recording vaccines, clinical data, consultations, and more for your child",
         github: "https://github.com/yayuwu/cuipea-app-front",
         web: "http://www.responsinator.com/?url=cuipea.netlify.app%2F",
@@ -46,6 +50,7 @@ const projects = [
     {
         id: 5,
         name: "Baby Donas",
+        slug: "baby-donas",
         description: "Baby Donas is a donut business where you can explore a variety of donuts available for sale and directly contact the seller.",
         github: "https://github.com/yayuwu/domo-challenge",
         web: "https://babydonasweb.netlify.app/",
@@ -57,6 +62,7 @@ const projects = [
     {
         id: 6,
         name: "Moonsy",
+        slug: "moonsy",
         description: "Moonsy is an e-commerce store that sells high-quality makeup products, guaranteeing variety and inclusivity.",
         figma: "https://www.figma.com/proto/1l08VktmrVcr0uiyWdLFot/Moonsy?node-id=200-10&t=fYe2TVwFBXxc8vCd-0&scaling=scale-down-width&content-scaling=fixed&page-id=27%3A73&starting-point-node-id=200%3A4",
         cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736544597/yael_portfolio_2024/projects/moonsy/01_Home_Web_3_j3p74l.png",
@@ -73,9 +79,24 @@ export default function handler(req, res) {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type'); // Headers permitidos
   
     if (req.method === 'OPTIONS') {
-      return res.status(200).end(); // Manejo de preflight
+        return res.status(200).end(); // Manejo de preflight
     }
-    
+
+    // Obtenemos el slug desde la URL
+    const { slug } = req.query;
+
+    if (slug) {
+        // Filtramos el proyecto por el slug
+        const project = projects.find(p => p.slug === slug);
+
+        if (project) {
+            return res.status(200).json(project);
+        } else {
+            return res.status(404).json({ message: "Proyecto no encontrado" });
+        }
+    }
+
+    // Si no hay slug, devolvemos todos los proyectos
     res.status(200).json(projects);
 }
   

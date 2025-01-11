@@ -17,7 +17,7 @@ const Nav = () => {
   return (
     <div className='flex justify-between m-6 md:mx-12 z-10 relative'>
       <div>
-        <Image src="./svg/Icon.svg" width={70} height={70} alt='icon'/>
+        <Image src="/svg/Icon.svg" width={70} height={70} alt='icon'/>
       </div>
       {/* Botón del menú */}
       <div className='bg-white w-fit py-2 pt-3 px-2 rounded-full flex flex-col absolute right-0'>

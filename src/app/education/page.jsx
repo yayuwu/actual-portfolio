@@ -12,7 +12,7 @@ const Education = () => {
 
     const fetchEducation = async () => {
       try {
-        const data = await getEducation()
+        const data = await getEducation() 
         console.log(data)
         setCertifications(data.reverse())
       } catch (error) {

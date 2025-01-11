@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import { GreenBtn } from './ui/buttons'
-import svgLine from '../../public/svg/Line.svg'
 import Image from 'next/image'
 
 const Home = () => {
@@ -9,7 +8,7 @@ const Home = () => {
     <div className='font-semibold mt-12 md:mt-0  mx-7 md:mx-14 2xl:mx-40 flex justify-between items-center flex-wrap h-[60vh]'>
       <section>
           <div className='flex items-center'>
-            <Image width='25' height='2' src={svgLine} alt="" />
+            <Image width='25' height='2' src="/svg/Line.svg" alt="Logo" />
             <p className='text-base md:text-xl ms-3'>Home</p>
           </div>
         <h1 className='text-4xl xl:text-6xl 2xl:text-6xl'>I&apos;m Yael <span className='block text-colorGreen'>Front End Developer</span> </h1>

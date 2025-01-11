@@ -38,13 +38,13 @@ const Portfolio = () => {
           md: 5
         }}>
           {projects.map((project, index) => (
-            <div key={index} className='cursor-pointer relative group '>
+            <a href={`/portfolio/${project.slug}`} key={index} className='cursor-pointer relative group '>
               <img src={project.cover} alt={project.name} className='rounded-xl md:rounded-3xl hover:bg-gray-800 z-10'/>
               <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl md:rounded-3xl z-10 opacity-0 group-hover:opacity-100 transition-opacity">
                 <ArrowOutward className='absolute right-6 top-6  lg:right-6'/>
                 <p className='absolute bottom-8 left-7 lg:left-10 hidden group-hover:block font-medium text-md lg:text-xl'>{project.name}</p>
               </div>             
-            </div>
+            </a>
           ))}
         </Masonry>
       </section>
