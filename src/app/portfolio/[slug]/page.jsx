@@ -8,7 +8,7 @@ import { ArrowCircleLeftOutlined, DesignServices } from '@mui/icons-material'
 import { Masonry } from '@mui/lab'
 
 async function fetchProjectData(slug) {
-  const res = await fetch(`http://localhost:3000/api/projects?slug=${slug}`); // Asegúrate de que la URL sea correcta para tu API
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/projects?slug=${slug}`); // Asegúrate de que la URL sea correcta para tu API
   if (!res.ok) {
     console.error('Error al obtener los datos del proyecto');
     return null;
