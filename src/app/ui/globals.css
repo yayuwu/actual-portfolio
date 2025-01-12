@@ -23,17 +23,17 @@ body {
     border: 0;
     margin: 0;
     overflow: visible; }
-    .hamburger:hover {
-      opacity: 0.7; }
-    .hamburger.is-active:hover {
-      opacity: 0.7; }
+    /* .hamburger:hover {
+      opacity: 0.7; } */
+    /* .hamburger.is-active:hover {
+      opacity: 0.7; } */
     .hamburger.is-active .hamburger-inner,
     .hamburger.is-active .hamburger-inner::before,
     .hamburger.is-active .hamburger-inner::after {
       background-color: #0E100F; }
   
   .hamburger-box {
-    width: 30px;
+    width: 25px;
     height: 10px;
     display: inline-block;
     position: relative; }
@@ -43,7 +43,7 @@ body {
     top: 50%;
     margin-top: -2px; }
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-      width: 30px;
+      width: 25px;
       height: 4px;
       background-color: #0E100F;
       border-radius: 4px;
@@ -98,6 +98,7 @@ body {
     }
 
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        width: 30px;
         height: 4px;
     }
 }

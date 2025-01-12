@@ -28,7 +28,7 @@ export const TechBtn = ({ children, textColor, backgroundColor }) => {
 export const MenuItem = ({ item, href }) => {
   const pathname = usePathname()
     return (
-        <Link className={`rounded-full inline-block p-3 w-[46px] cursor-pointer ${
+        <Link className={`rounded-full inline-block p-3 w-[45px] md:w-[48px] cursor-pointer ${
           pathname === href ? 'bg-colorGreen' : 'bg-gray-300 hover:bg-colorGreen'
         }`} href={href}>
             <Image src={item} alt='item' className='w-full'/>

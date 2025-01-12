@@ -1,10 +1,10 @@
 "use client"
 import { useState } from 'react'
 import { MenuItem } from './buttons'
-import homeImg from '../../../public/svg/home-item.png'
-import educationImg from '../../../public/svg/certifications-item.png'
-import projectsImg from '../../../public/svg/projects-item.png'
-import contactImg from '../../../public/svg/contact-item.png'
+import homeImg from '../../../public/svg/home-icon.svg'
+import educationImg from '../../../public/svg/graduation-icon.svg'
+import projectsImg from '../../../public/svg/folder-icon.svg'
+import contactImg from '../../../public/svg/mail-icon.svg'
 import Image from 'next/image'
 
 const Nav = () => {
@@ -17,10 +17,11 @@ const Nav = () => {
   return (
     <div className='flex justify-between m-6 md:mx-12 z-10 relative'>
       <div>
-        <Image src="/svg/Icon.svg" width={70} height={70} alt='icon'/>
+        <Image src="/svg/Icon.svg" className='md:hidden' width={60} height={60} alt='icon'/>
+        <Image src="/svg/Icon.svg" className='hidden md:block' width={70} height={70} alt='icon'/>
       </div>
       {/* Botón del menú */}
-      <div className='bg-white w-fit py-2 pt-3 px-2 rounded-full flex flex-col absolute right-0'>
+      <div className='bg-white w-fit py-1 pt-2 pb-2 md:py-2 md:pt-3 px-2 rounded-full flex flex-col absolute right-0 w-[50px] md:w-[65px]'>
         <div
           className={`menu-trigger ${isActive ? "is-active" : ""}`}
           onClick={toggleMenu}
