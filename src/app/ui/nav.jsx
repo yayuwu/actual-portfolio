@@ -15,7 +15,7 @@ const Nav = () => {
     }
 
   return (
-    <div className='flex justify-between m-6 md:mx-12 z-10 relative'>
+    <div className='flex justify-between m-6 md:mx-12 z-20 relative'>
       <div>
         <Image src="/svg/Icon.svg" className='md:hidden' width={60} height={60} alt='icon'/>
         <Image src="/svg/Icon.svg" className='hidden md:block' width={70} height={70} alt='icon'/>
