@@ -34,13 +34,13 @@ const Project = async ({ params }) => {
     <div className='mt-12 md:mt-0  mx-7 md:mx-14 2xl:mx-40'>
           <div className='flex items-center'>
             <Image width='25' height='2' src={svgLine} alt="" />
-            <p className='text-base md:text-xl ms-3'>Works & Projects</p>
+            <p className='text-base md:text-xl ms-3 font-semibold'>Works & Projects</p>
           </div>
           <h1 className='text-4xl xl:text-6xl 2xl:text-6xl font-semibold'>{name}</h1>
             <div className='flex gap-4 items-center'>
-                { github ? (<a href={github} className='cursor-pointer'><Image width={40} height={40} src={svgGithub} alt='github'/></a>) : null }
-                { web ? (<a href={web} className='cursor-pointer'><Image width={48} height={48} src={svgWebsite} alt='website'/></a>) : null }
-                { design ? (<a href={design} className='cursor-pointer'><DesignServices/></a>) : null}
+                { github ? (<a href={github} target='_blank' className='cursor-pointer'><Image width={40} height={40} src={svgGithub} alt='github'/></a>) : null }
+                { web ? (<a href={web} target='_blank' className='cursor-pointer'><Image width={48} height={48} src={svgWebsite} alt='website'/></a>) : null }
+                { design ? (<a href={design} target='_blank' className='cursor-pointer'><DesignServices sx={{color: '#00BFAE'}}/></a>) : null}
             </div>
             <p className='text-md font-medium mt-5 md:w-[600px]'>{description}</p>
           <section className='flex flex-wrap gap-4 my-4'>
@@ -51,7 +51,7 @@ const Project = async ({ params }) => {
           <section className='mt-10 flex justify-center '>
                 <Masonry columns={{
                 xs: 2,
-                md: 4,
+                md: 3,
                 }} 
                 spacing={{
                 xs: 2,

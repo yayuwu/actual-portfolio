@@ -3,9 +3,9 @@ import { TechBtn } from './buttons'
 import diplomaImage from '../../../public/img/diploma.png'
 import Image from 'next/image'
 
-export const CardEducation = ({course, institution, techs, date, linkCourse}) => {
+export const CardEducation = ({course, institution, techs, date, linkCourse, animationClass}) => {
   return (
-    <div className='bg-white w-[300px] rounded-xl px-7 pt-7 pb-4 flex flex-col '>
+    <div className={`bg-white rounded-xl px-7 pt-7 pb-4 flex flex-col w-[300px] transform trasition-all duration-500 ease-in-out ${animationClass}`}>
       <section className='text-colorDark'>
         <h2 className='font-semibold text-lg lg:text-2xl'>{course}</h2>
         <p className=' text-base font-semibold text-colorGreen xl:text-md xl:pt-2'>{institution}</p>

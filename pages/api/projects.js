@@ -8,7 +8,7 @@ const projects = [
         web: "https://webcalculatorchallenge.netlify.app/",
         cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736552421/yael_portfolio_2024/projects/calculadora-web/calculator_mockup_ddcd0p.png",
         tech: ["HTML", "CSS", "JavaScript", "Netlify"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736545126/yael_portfolio_2024/projects/calculadora-web/Captura_de_pantalla_1250_ifxnmm.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736545128/yael_portfolio_2024/projects/calculadora-web/Captura_de_pantalla_1251_i5omad.png"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736552421/yael_portfolio_2024/projects/calculadora-web/calculator_mockup_ddcd0p.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736803482/yael_portfolio_2024/projects/calculadora-web/web_calculator_mockup_desktop_2_glusoq.png"],
         date: "15/12/2023"
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         web: "https://drive.google.com/file/d/1yc1wqyibZ4rXXbxqy4NXxESRzlp3CYjw/view",
         cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736549733/yael_portfolio_2024/projects/ECOSistema/ecosistema_mockups_u7tvqc.png",
         tech: ["React", "Redux", "Formik", "Vite", "Netlify", "Google Geolocation API", "Google Oauth API", "Axios", "Material UI"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736546237/yael_portfolio_2024/projects/ECOSistema/ecosistema_inicio_a13gjo.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736546239/yael_portfolio_2024/projects/ECOSistema/ecosistema_inicio_categorias_eezlbf.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736546241/yael_portfolio_2024/projects/ECOSistema/ecosistema_inicio_sesion_y9xwcc.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736546238/yael_portfolio_2024/projects/ECOSistema/ecosistema_publicacion_is4zix.png"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736549733/yael_portfolio_2024/projects/ECOSistema/ecosistema_mockups_u7tvqc.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736790069/yael_portfolio_2024/projects/ECOSistema/ecosistema_mockups_3_sflyg7.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736790070/yael_portfolio_2024/projects/ECOSistema/ecosistema_mockups_4_duwjjl.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736790069/yael_portfolio_2024/projects/ECOSistema/ecosistema_mockups_2_trafzp.png"],
         date: "11/05/2024"
     },
     {
@@ -30,9 +30,9 @@ const projects = [
         description: "Businezz X was a challenge where one of my responsibilities was to create the layout based on an image, maintaining fidelity, and adding appealing animations.",
         github: "https://github.com/yayuwu/domo-challenge",
         web: "https://businezzx.netlify.app",
-        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1733484908/yael_portfolio_2024/projects/bussinezz%20x/Captura_de_pantalla_1196_wgeyfz.png",
+        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736803035/yael_portfolio_2024/projects/bussinezz%20x/bussinezz_x_mobile_mockup_1_bks3ll.png",
         tech: ["React", "Bootstrap", "Netlify", "HTML", "CSS"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1733484908/yael_portfolio_2024/projects/bussinezz%20x/Captura_de_pantalla_1196_wgeyfz.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736539507/yael_portfolio_2024/projects/bussinezz%20x/Captura_de_pantalla_986_m9dk21.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736539505/yael_portfolio_2024/projects/bussinezz%20x/Captura_de_pantalla_990_w18u1z.png"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736803035/yael_portfolio_2024/projects/bussinezz%20x/bussinezz_x_mobile_mockup_1_bks3ll.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736803035/yael_portfolio_2024/projects/bussinezz%20x/bussinezz_x_mobile_mockup_2_mdluwr.png"],
         date: "01/10/2024"
     },
     {
@@ -44,7 +44,7 @@ const projects = [
         web: "http://www.responsinator.com/?url=cuipea.netlify.app%2F",
         cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736549134/yael_portfolio_2024/projects/cuipea/cuipea_mockups_cj54wm.png",
         tech: ["Handlebars", "Bootstrap", "Netlify", "HTML", "CSS", "Node.js", "MongoDB", "JWT"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736542548/yael_portfolio_2024/projects/cuipea/cuipea_inicio_dhihwd.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736542252/yael_portfolio_2024/projects/cuipea/cuipea-perfiles_dcgiav.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736542252/yael_portfolio_2024/projects/cuipea/cuipea-perfil_c1n4og.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736542251/yael_portfolio_2024/projects/cuipea/cuipea-historia-clinica_hijhvl.png"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736788731/yael_portfolio_2024/projects/cuipea/mockup_mobile_y1essv.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736788730/yael_portfolio_2024/projects/cuipea/mockup_mobile_3_wrtkwx.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736788730/yael_portfolio_2024/projects/cuipea/mockup_mobile_2_gouykf.png"],
         date: "29/11/2024"
     },
     {
@@ -54,9 +54,9 @@ const projects = [
         description: "Baby Donas is a donut business where you can explore a variety of donuts available for sale and directly contact the seller.",
         github: "https://github.com/yayuwu/domo-challenge",
         web: "https://babydonasweb.netlify.app/",
-        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736543188/yael_portfolio_2024/projects/babydonas/Captura_de_pantalla_1248_ublvjv.png",
+        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736791491/yael_portfolio_2024/projects/babydonas/babydonas_mockup_mobil2_ii56lw.png",
         tech: ["React", "Bootstrap", "Netlify", "HTML", "CSS", "Figma"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736543188/yael_portfolio_2024/projects/babydonas/Captura_de_pantalla_1248_ublvjv.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736543188/yael_portfolio_2024/projects/babydonas/Captura_de_pantalla_1247_owpmwu.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736543797/yael_portfolio_2024/projects/babydonas/Frame_1_lroysm.png"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736791640/yael_portfolio_2024/projects/babydonas/babydonas_mockup_desktop_1_s0xgnq.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736791640/yael_portfolio_2024/projects/babydonas/babydonas_mockup_desktop_2_h18w6j.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736791491/yael_portfolio_2024/projects/babydonas/babydonas_mockup_mobil2_ii56lw.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736791491/yael_portfolio_2024/projects/babydonas/babydonas_mockup_mobile_1_qkwk3k.png"],
         date: "02/12/2024"
     },
     {
@@ -64,10 +64,10 @@ const projects = [
         name: "Moonsy",
         slug: "moonsy",
         description: "Moonsy is an e-commerce store that sells high-quality makeup products, guaranteeing variety and inclusivity.",
-        figma: "https://www.figma.com/proto/1l08VktmrVcr0uiyWdLFot/Moonsy?node-id=200-10&t=fYe2TVwFBXxc8vCd-0&scaling=scale-down-width&content-scaling=fixed&page-id=27%3A73&starting-point-node-id=200%3A4",
-        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736544597/yael_portfolio_2024/projects/moonsy/01_Home_Web_3_j3p74l.png",
-        tech: ["UX Research", "UX Thinking", "Wireframing", "Prototyping", "Responsive Design", "Figma"],
-        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736544597/yael_portfolio_2024/projects/moonsy/01_Home_Web_3_j3p74l.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736544748/yael_portfolio_2024/projects/moonsy/Captura_de_pantalla_579_1_telzzb.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736544750/yael_portfolio_2024/projects/moonsy/Captura_de_pantalla_664_1_kyjhzh.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736544750/yael_portfolio_2024/projects/moonsy/Captura_de_pantalla_666_1_ixnudi.png"],
+        design: "https://www.figma.com/proto/1l08VktmrVcr0uiyWdLFot/Moonsy?node-id=200-10&t=fYe2TVwFBXxc8vCd-0&scaling=scale-down-width&content-scaling=fixed&page-id=27%3A73&starting-point-node-id=200%3A4",
+        cover: "https://res.cloudinary.com/dkfa8olux/image/upload/v1736723206/yael_portfolio_2024/projects/moonsy/moonsy_mockups_yhvrup.png",
+        tech: ["UX/UI Design", "UX Research", "UX Thinking", "Wireframing", "Prototyping", "Responsive Design", "Figma"],
+        images: ["https://res.cloudinary.com/dkfa8olux/image/upload/v1736786988/yael_portfolio_2024/projects/moonsy/mockup_moonsy_desktop_orrtoa.png","https://res.cloudinary.com/dkfa8olux/image/upload/v1736786988/yael_portfolio_2024/projects/moonsy/mockup_moonsy_desktop_2_iyp9ig.png" ,"https://res.cloudinary.com/dkfa8olux/image/upload/v1736723206/yael_portfolio_2024/projects/moonsy/moonsy_mockups_yhvrup.png", "https://res.cloudinary.com/dkfa8olux/image/upload/v1736787311/yael_portfolio_2024/projects/moonsy/mockup_3_mobile_fvfkyk.png"],
         date: "29/12/2024"
     },
 ]
