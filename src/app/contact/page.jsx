@@ -24,7 +24,7 @@ const Contact = () => {
             <a href='https://www.linkedin.com/in/yael-correa/' target='_blank'><Image src='/svg/linkedin.svg' width={40} height={40} alt='linkedin'/></a>
           </div>
         </section>
-        <section className='mt-10'>
+        <section className='mt-10 mb-6 md:mb-0'>
           <GreenBtn href='https://drive.google.com/file/d/10e2K19HFqRnW2gFroZIlcEBr_aWTpCJG/view?usp=drive_link'>Download CV</GreenBtn>
         </section>
       </div>

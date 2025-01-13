@@ -51,7 +51,7 @@ const Project = async ({ params }) => {
           <section className='mt-10 flex justify-center '>
                 <Masonry columns={{
                 xs: 2,
-                md: 3,
+                lg: 3,
                 }} 
                 spacing={{
                 xs: 2,

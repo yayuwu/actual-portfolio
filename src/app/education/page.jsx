@@ -34,7 +34,7 @@ const Education = () => {
   }, [certifications])
 
   return (
-    <div className='mt-12 md:mt-20 mx-7 md:mx-14 2xl:mx-40'>
+    <div className='mt-12 mb-6 md:mt-20 mx-7 md:mx-14 2xl:mx-40'>
       <div className='flex items-center'>
         <Image width='25' height='2' src={svgLine} alt="" />
         <p className='text-base md:text-xl ms-3 font-semibold'>Courses & Certifications</p>
