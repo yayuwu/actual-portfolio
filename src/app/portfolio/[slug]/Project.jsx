@@ -27,7 +27,7 @@ const Project = ({ projectData }) => {
         <section className='fixed inset-0 z-50 flex items-center justify-center'>
             <div className="relative">
             <img
-                className="rounded-xl md:rounded-3xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl 2xl:max-w-3xl 3xl:max-w-4xl"
+                className="rounded-xl md:rounded-3xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl 3xl:max-w-4xl"
                 src={clickImage}
                 alt=""
             />
@@ -51,7 +51,7 @@ const Project = ({ projectData }) => {
       )}
           <div className='flex items-center'>
             <Image width='25' height='2' src={svgLine} alt="" />
-            <p className='text-base md:text-xl ms-3 font-semibold'>Works & Projects</p>
+            <p className='text-base md:text-xl ms-3 font-semibold'>Trabajos & Proyectos</p>
           </div>
           <h1 className='text-4xl xl:text-6xl 2xl:text-6xl font-semibold'>{name}</h1>
             <div className='flex gap-4 items-center'>
