@@ -9,7 +9,7 @@ const courses = [
     },
     {
       id: 2,
-      course: "Specialization Course in React",
+      course: "Curso de especialización en React",
       institution: "Agencia de Habilidades para el Futuro",
       date: "JUN - 2024",
       tech: ["React", "Firebase", "Redux Toolkit", "Redux"],
@@ -17,7 +17,7 @@ const courses = [
     },
     {
       id: 3,
-      course: "Fullstack Developer",
+      course: "Programación Full Stack",
       institution: "Educación IT",
       date: "NOV - 2024",
       tech: ["Angular", "Node.js", "MongoDB", "React", "Bootstrap", "Tailwind CSS"],
