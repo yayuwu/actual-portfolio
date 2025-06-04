@@ -17,7 +17,7 @@ const Education = () => {
         console.log(data)
         setCertifications(data.reverse())
       } catch (error) {
-        console.error('Error fetching education data:', error)
+        console.log('Error fetching education data:', error)
       }
     }
     fetchEducation()
@@ -37,9 +37,9 @@ const Education = () => {
     <div className='mt-12 mb-6 md:mt-20 mx-7 md:mx-14 2xl:mx-40'>
       <div className='flex items-center'>
         <Image width='25' height='2' src={svgLine} alt="" />
-        <p className='text-base md:text-xl ms-3 font-semibold'>Courses & Certifications</p>
+        <p className='text-base md:text-xl ms-3 font-semibold'>Cursos & Certificaciones</p>
       </div>
-      <h1 className='text-4xl xl:text-6xl 2xl:text-6xl font-semibold'>Education</h1>
+      <h1 className='text-4xl xl:text-6xl 2xl:text-6xl font-semibold'>Educación</h1>
       <div className='flex flex-wrap justify-center gap-10 lg:gap-20 mt-6 md:mt-12 xl:justify-start'>
         { certifications.map((course, index) => (
           <CardEducation 
