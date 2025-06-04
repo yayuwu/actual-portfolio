@@ -80,7 +80,7 @@ const Project = ({ projectData }) => {
                 </Masonry>
             </section>
            <section className='flex justify-center mb-5'>
-                <a href={`${process.env.NEXT_PUBLIC_API_URL}/portfolio`} className='flex items-center px-4 pe-7 py-2 text-sm md:text-lg rounded-full font-medium w-fit bg-colorGreen'><ArrowCircleLeftOutlined sx={{ width: '40px'}} />Go back</a>
+                <a href={`${process.env.NEXT_PUBLIC_API_URL}/portfolio`} className='flex items-center px-4 pe-7 py-2 text-sm md:text-lg rounded-full font-medium w-fit bg-colorGreen'><ArrowCircleLeftOutlined sx={{ width: '40px'}} />Volver</a>
            </section>
     </div>
   )
